@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+**/*.pyc
+
+# Environment files and credentials
+.env
+**/.env
+.env.local
+**/.env.local
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+*.json.key
+**/*.json.key
+*service-account*.json
+**/*service-account*.json
+credentials.json
+**/credentials.json
+
+# Builds & caches
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+*.egg-info/
+**/*.egg-info/
+.pytest_cache/
+**/.pytest_cache/
+
+# System and logs
+.DS_Store
+**/.DS_Store
+*.log
+**/*.log
