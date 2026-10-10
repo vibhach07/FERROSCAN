@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://ferroscan-xxxx.onrender.com/api/:path*"
+      "destination": "https://ferroscan.onrender.com/api/:path*"
     },
     {
       "source": "/((?!api/).*)",
